@@ -1,11 +1,15 @@
 package com.promedia.fragments2
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.Fragment
 import com.promedia.fragments2.Fragments.FifthFragment
 import com.promedia.fragments2.Fragments.FourthFragment
 import com.promedia.fragments2.Fragments.ThirdFragment
+import com.promedia.fragments2.Fragments.myDialogFragment
 import com.promedia.fragments2.databinding.ActivitySecondBinding
 
 class SecondActivity : AppCompatActivity() {
@@ -35,6 +39,12 @@ class SecondActivity : AppCompatActivity() {
                 R.anim.slide_out) // Pop Exit
             .replace(R.id.fragContainer, fragment)
             .commit()
+    }
+    fun onClickDialog(view: View) {
+        DialogFragment().show(supportFragmentManager, myDialogFragment.TAG)
+    }
+    fun clickNext(view: View){
+        val myIntent = Intent(this, )    //<- Me falta añadir
     }
 }
 
