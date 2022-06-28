@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Fragments2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btnThird">3RD</string>
+    <string name="btnfourth">4TH</string>
+    <string name="btnFifth">5TH</string>
+    <string name="btnsiguiente">SIGUIENTE ACTIVIDAD</string>
+    <string name="secondFragment">Second Fragment</string>
+    <string name="firstFragment">First Fragment</string>
+    <string name="thirdFragment">Third Fragment</string>
+    <string name="fourthFragment">Fourth Fragment</string>
+    <string name="fifthFragment">Fifth Fragment</string>
+    <string name="itCopy">Copiar</string>
+    <string name="itCut">Cortar</string>
+    <string name="itPaste">Pegar</string>
+
+
+</resources>
