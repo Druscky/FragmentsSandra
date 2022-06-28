@@ -14,6 +14,9 @@
     <string name="itCopy">Copiar</string>
     <string name="itCut">Cortar</string>
     <string name="itPaste">Pegar</string>
+    <string name="DialogFragment">¿Está seguro de que quiere borrar los datos?</string>
+    <string name="Aceptar">ACEPTAR</string>
+    <string name="Cancelar">CANCELAR</string>
 
 
 </resources>
